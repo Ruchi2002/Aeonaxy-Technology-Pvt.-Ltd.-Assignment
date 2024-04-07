@@ -7,6 +7,9 @@
     background-color: #f2d086;
     height: 100vh;
   }
+  #name-username {
+    flex-direction: column;
+  }
   .auth-layout__right-container {
     width: 100%;
   }
