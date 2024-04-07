@@ -21,6 +21,10 @@
   gap: 10px;
 }
 
+.gap-20{
+  gap: 20px;
+}
+
 .w-200 {
   width: 200px;
 }
@@ -92,8 +96,21 @@
 .checkbox-rounded:checked {
   background-color: #ea4b8b;
 }
-.flex {
-  display: flex;
-  align-items: center;
+
+.justify-center {
   justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.section {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 10px auto;
 }
