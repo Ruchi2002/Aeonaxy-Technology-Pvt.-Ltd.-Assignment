@@ -61,6 +61,12 @@
     font-size: 10px;
     line-height: 20px;
   }
+  .right-footer-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 900px) {

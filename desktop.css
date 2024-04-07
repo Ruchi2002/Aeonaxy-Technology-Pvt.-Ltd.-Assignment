@@ -274,12 +274,10 @@ footer {
   align-items: center;
   justify-content: space-between;
   margin: auto;
-  padding:50px ;
+  padding: 50px;
 }
-.right-footer-text{
+.right-footer-text {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
 }
