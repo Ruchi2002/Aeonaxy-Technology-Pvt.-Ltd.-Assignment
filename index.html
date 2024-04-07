@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- linking CSS -->
+    <link rel="stylesheet" href="./utility.css" />
+    <link rel="stylesheet" href="./desktop.css" />
+    <link rel="stylesheet" href="./mobile.css" />
+
+    <!-- linking google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Dribble</title>
+  </head>
+  <body>
+    <section class="auth-layout__wrapper">
+      <div class="auth-layout__left-container">
+        <img class="main-logo" src="./image/logo.png" alt="logo" />
+        <h3 class="auth_layout_left__text">
+          Discover the world's top Designers & Creatives.
+        </h3>
+        <img
+          class="auth_layout_left__banner"
+          src="./image/dribble-image.jpeg"
+          alt=""
+        />
+      </div>
+      <div class="auth-layout__right-container">
+        <p class="auth-layout__right-container_sign-in_text">
+          Already a member?Sign in
+        </p>
+        <form action="" class="auth-layout__right-container_form">
+          <h1>Sign up to Dribble</h1>
+          <div class="flex gap-10">
+            <div class="input-box">
+              <label for="name">Name </label>
+              <input
+                class="text-input"
+                type="text"
+                id="first"
+                name="first"
+                placeholder="name"
+              />
+            </div>
+            <div class="input-box">
+              <label for="username"> Username </label>
+              <input
+                class="text-input"
+                type="text"
+                id="username"
+                name="username"
+                placeholder="username"
+              />
+            </div>
+          </div>
+          <div class="input-box">
+            <label for="Email">Email</label>
+            <input class="text-input" type="email" placeholder="email" />
+          </div>
+          <div class="input-box">
+            <label for="password">Password</label>
+
+            <input
+              class="text-input"
+              type="password"
+              placeholder="6+ characters"
+            />
+          </div>
+          <div class="input-checkbox">
+            <input type="checkbox" />
+            <label or="input-checkbox">
+              Creating an account means you're okay with our Terms of<br />
+              service,privacy policy,and our default Notification
+              <br />settings.
+            </label>
+          </div>
+          <div class="w-200">
+            <button class="btn" type="button">Create Account</button>
+
+          </div>
+
+          
+        </form>
+      </div>
+    </section>
+    <section class="profile-section">
+      <img class="main-logo" src="./image/logo.png" alt="" />
+      <div class="profile-section-wrapper">
+        <div class="flex flex-col gap-10">
+          <h3 class="title">Welcome! Let's create your profile</h3>
+          <p class="description">
+            Let other get to know you better!You can do these later
+          </p>
+        </div>
+        <div class="avatar_container">
+          <div class="avatar">
+            <p>Add an avatar</p>
+            <div class="profile-photo">
+              <img class="camera-icon" src="./image/camera-icon.png" alt="" />
+            </div>
+          </div>
+          <div class="choose-image-btn">
+            <!-- <input id="profile-input" class="" type="file" /> -->
+            <label for="profile-input">
+              <div class="w-200"><button class="outline-btn" type="button">Choose image</button></div>
+              
+              <p>> or choose one of our default</p>
+            </label>
+          </div>
+        </div>
+        <div class="add-location">
+          <label>Add your location</label>
+          <input type="text" placeholder="Enter  location" />
+        </div>
+        <div class="w-200"><button disabled class="btn next">Next</button></div>
+        
+      </div>
+    </section>
+    <section class=" flex flex-col" id="choose">
+      <h3 class="title">What brings you to Dribble?</h3>
+      <p class="description">
+        Select the option that best describe you.Don't worry,you can explore
+        other option later
+      </p>
+      <div class="choose-category">
+        <label for="category-1" class="category-card">
+          <img src="./image/category-1.jpg" alt="" />
+          <p>I'm designer looking to share my work</p>
+          <input type="checkbox" id="category-1" class="checkbox-rounded" />
+        </label>
+        <label for="category-2" class="category-card">
+          <img src="./image/category-1.jpg" alt="" />
+          <p>I'm designer looking to share my work</p>
+          <input type="checkbox" id="category-2" class="checkbox-rounded" />
+        </label>
+        <label for="category-3" class="category-card">
+          <img src="./image/category-1.jpg" alt="" />
+          <p>I'm designer looking to share my work</p>
+          <input type="checkbox" id="category-3" class="checkbox-rounded" />
+        </label>
+      </div>
+      <p class="note-text">Anything else? You can select multiple</p>
+      <div class="w-200"><button class="btn" id="Finish">Finish</button></div>
+      
+    </section>
+    <section class="verify-email-section">
+      <header>
+        <img class="main-logo" src="./image/logo.png" alt="logo" />
+        <div class="navbar">
+          <div class="left-header">
+            <ul>
+              <li><a href="#">Inspiration</a></li>
+              <li><a href="#">Find Work</a></li>
+              <li><a href="#">Learn Design</a></li>
+              <li><a href="#">Go Pro</a></li>
+              <li><a href="#">Hire Designers</a></li>
+            </ul>
+          </div>
+          <div class="right-header">
+            <input class="search" type="search" placeholder="Search..." />
+            <img src="./image/case.svg" alt="" />
+            <img src="./image/profile.svg" alt="" />
+            <button class="btn">Upload</button>
+          </div>
+        </div>
+      </header>
+      <div class="main">
+        <h3 ">Please verify your email...</h3>
+        <img src="./image/envelope-closed-128.png" alt="" width="200px" />
+        <p> We've sent a confirmation email to:</p>
+        <h4>account@refero.design</h4>
+        <p>Click the confirmation link in that email to begin using Dribbble.</p>
+        <p>Didn't receive the email? Check your Spam folder, it may have been caught by a filter.if</p>
+        <p> you still don't see it, you can<span> resend the confirmation email.</span></p>
+        <p>Wrong email address? <span>Change it.</span></p>
+      </div>
+      <footer>
+        <div class="footer1">
+          <img src="./image/logo.png" class="main-logo" alt="">
+          <p>Dribbble is the world's leading<br> community for creatives to share, grow,<br> and get hired.</p>
+          <div class="social-media-icons">
+            <img src="./image/dribble -icon.png" alt="">
+            <img src="./image/Twitter-icon.png" alt="" >
+            <img src="./image/Facebook.jpeg" alt="" >
+            <img src="./image/Instagram-icon.png" alt="" >
+            <img src="./image/pinterest-4-16.png" alt="">
+          </div>
+        </div>
+        <div class="footer2">
+          <h4>Go Pro</h4>
+          <p>Explore design work </p>
+          <p>Design blog</p>
+          <p>Overtime Podcast</p>
+          <p>Playoffs</p>
+          <p>Weekly warm-up</p>
+          <p>Refer a Friend </p>
+          <p>code conduct</p>
+        </div>
+        <div class="footer3">
+          <h4>Hire Designers</h4>
+          <p>Post a job opening</p>
+          <p>post a freelance project</p>
+          <p>search for designer</p>
+          <h4>Brands</h4>
+          <p>Advertise with us</p>
+        </div>
+        <div class="footer4">
+          <h4>Company</h4>
+          <p>About</p>
+          <p>Carriers</p>
+          <p>Support</p>
+          <p>media kit</p>
+          <p>Testimonials</p>
+          <p>API </p>
+          <p>Terms of service</p>
+          <p>Privay policy</p>
+          <p>cookie Policy</p>
+        </div>
+        <div class="footer5">
+          <h4>Directories</h4>
+          <p>Design job </p>
+          <p>Designers for hire</p>
+          <p>Freelance Designers for hire</p>
+          <p>Tags</p>
+          <p>Places</p>
+          <h4>Design assets </h4>
+          <p>Dribble marketplace</p>
+          <p>Creative market</p>
+          <p>Fontspring</p>
+          <p>Font squirrel </p>
+        </div>
+        <div class="footer6">
+          <h4>Design Resources</h4>
+          <p>Freelancing </p>
+          <p>Design Hiring</p>
+          <p>>Design Portfolio</p>
+          <p>>Design Education</p>
+          <p>Creative Process</p>
+          <p>Design Industry Trends</p>
+          
+        </div>
+        <hr>
+      </footer>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

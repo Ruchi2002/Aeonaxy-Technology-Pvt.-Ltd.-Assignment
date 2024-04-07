@@ -1,0 +1,99 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.w-200 {
+  width: 200px;
+}
+
+.hidden {
+  display: none;
+}
+
+.title {
+  font-size: 35px;
+}
+
+.description {
+  font-size: 15px;
+  color: #535353;
+}
+
+.btn {
+  padding: 10px 15px 10px 15px;
+  background-color: #ea4b8b;
+  color: #ffff;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  border-radius: 8px;
+}
+.btn:disabled {
+  margin-top: 50px;
+  padding: 10px 15px 10px 15px;
+  background-color: #f8b8d0;
+  color: #ffff;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.outline-btn {
+  margin-top: 50px;
+  padding: 10px 15px 10px 15px;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  background: none;
+  width: 200px;
+  border-radius: 8px;
+}
+
+.category-card {
+  border: 2px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.checkbox-rounded {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.checked {
+  border: 2px solid #ea4b8b !important;
+}
+
+.checkbox-rounded:checked {
+  background-color: #ea4b8b;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
