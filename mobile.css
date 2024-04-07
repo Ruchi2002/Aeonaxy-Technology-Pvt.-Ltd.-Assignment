@@ -51,6 +51,9 @@
   .left-header ul {
     display: none;
   }
+  footer {
+    width: 100%;
+  }
   .footer-section-1 {
     background-color: #fafafa;
     display: flex;
